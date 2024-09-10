@@ -1,0 +1,396 @@
+@font-face {
+    font-family: 'Bebas NeueReg';
+    src: url('../fonts/bebasneueregular/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/bebasneueregular/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Alfa Slab OneReg';
+    src: url('../fonts/alfaslaboneregular/AlfaSlabOne-Regular.woff2') format('woff2'),
+        url('../fonts/alfaslaboneregular/AlfaSlabOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/montserratbold/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/montserratbold/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bebas NeueBold';
+    src: url('../fonts/bebasneuebold/BebasNeueBold.woff2') format('woff2'),
+        url('../fonts/bebasneuebold/BebasNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratReg';
+    src: url('../fonts/montserratregular/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/montserratregular/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1330px;
+	margin:0 auto;
+}
+.fix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+header{
+	background-image:url(../images/bg.png);
+	background-size: cover;
+	background-position: center;
+	padding:50px 0;
+
+}
+.header_left{
+	float:left;
+	width:50%;
+}
+.header_left h2{
+	font-size:30px;
+	font-family: 'Bebas NeueReg';
+	color:#3d2514;
+	margin-top:60px;
+	
+	padding:10px;
+}
+.header_left h1{
+	font-size:120px;
+	font-family: 'Alfa Slab OneReg';
+	color:#3d2514;
+	padding:2px 0;
+	text-shadow:3px 6px 3px #fff;
+	letter-spacing:1px;
+	
+}
+.header_left h3{
+	font-size:60px;
+	font-family: 'Alfa Slab OneReg';
+	color:#3d2514;
+	text-shadow:2px 2px 3px #fff;
+	letter-spacing:1px;
+	
+
+}
+.header_right{
+	float:right;
+	width:50%;
+}
+.delivery{
+	text-align:right;
+}
+.delivery i{
+	font-size:30px;
+	color:#694f32;
+}
+.delivery .span1,.delivery .span2{
+	font-size:20px;
+	line-height:17px;
+	color:#3d2514;
+	padding:0 10px;
+    font-family: 'MontserratBold';
+}
+.header_right .nav{
+	padding:30px 0;
+	text-align:right;
+}
+.header_right nav ul{
+	list-style-type:none;
+}
+.header_right nav ul li{
+	display:inline-block;
+	margin-left:50px;
+}
+.header_right nav ul li a{
+	text-decoration:none;
+	color:#3d2514;
+	font-size:30px;
+	line-height:18px;
+	font-family: 'Bebas NeueBold';
+	margin-top:20px;
+}
+
+.header_right img{
+	padding:0px 0;
+}
+.banner{
+	padding:70px 0;
+
+}
+.banner_content{
+	float: left;
+    width: 47%;
+    margin-right: 39px;
+}
+.banner_content:first-child{
+	background-image:url(../images/img1.png);
+	background-size:cover;
+	background-position:center;
+	padding:20px 200px 280px 20px;
+	border-radius:10px;
+}
+.banner_content h4{
+	font-size:20px;
+    font-family: 'Bebas NeueBold';
+    color:#fff;
+}
+.banner_content h2{
+	font-size:40px;
+	color:#fff;
+	font-family: 'Bebas NeueBold';
+	padding:5px 0;
+
+}
+.content1{
+	background-image:url(../images/img2.png);
+	background-size:cover;
+	background-position:center;
+	border-radius:10px;
+	padding:20px 230px 65px 20px;
+}
+.content2{
+	background-image:url(../images/img3.png);
+	background-size:cover;
+	background-position:center;
+	border-radius:10px;
+	padding:20px 230px 65px 20px;
+	margin-top:20px;
+}
+.content1 h3,.content2 h3{
+	font-size:40px;
+	color:#fff;
+	font-family: 'Bebas NeueBold';
+}
+main{
+	padding-bottom:80px;
+
+}
+.block{
+	text-align:center;
+}
+.block a{
+	text-decoration:none;
+	background-color:#ffc045;
+	color:#3d2514;
+	font-size:35px;
+	padding:15px 20px;
+	font-family: 'Bebas NeueBold';
+}
+.block h2{
+	font-size:80px;
+	font-family: 'Alfa Slab OneReg';
+	color:#3d2514;
+	padding:30px 0;
+
+}
+.block p{
+	font-size:20px;
+	font-family: 'MontserratReg';
+}
+.main_content{
+	float:left;
+	width:33%;
+	margin-top:50px;
+	text-align:center;
+}
+.main_content h3{
+	font-size:30px;
+	color:#3d2514;
+	font-family: 'Bebas NeueBold';
+	padding-top:10px;
+}
+.main_content p{
+	font-size:15px;
+	font-family: 'MontserratReg';
+	padding: 17px 66px;
+}
+.main_content button{
+	padding:12px 28px;
+	background-color:#bf2222;
+	color:#fff;
+	font-family: 'Alfa Slab OneReg';
+	font-size:17px;
+	border:none;
+	cursor:pointer;
+}
+article{
+	
+	padding:80px 0 50px 0;
+	background-color:#fff;
+}
+
+.article_content{
+	float: left;
+    width: 42%;
+    margin-right: 66px;
+    box-shadow:10px 10px 5px gray;
+    padding:20px;
+    border:1px solid #000;
+
+}
+.article_content h4{
+	font-size:25px;
+    font-family: 'Bebas NeueBold';
+    color:#3d3d3d;
+}
+.article_content h2{
+   font-family: 'Alfa Slab OneReg';
+   font-size:50px;
+   color:#3d2514;
+   padding:10px 0 25px 0;
+}
+.article_content p{
+	font-size:20px;
+	font-family: 'MontserratReg';
+	color:#3d3d3d;
+	padding-bottom:19px;
+	line-height:25px;
+}
+.article_content i{
+	font-size:55px;
+	color:#ffc045;
+	margin-right:7px;
+
+}
+.article_content:nth-child(1){
+	margin-left:75px;
+	padding-bottom:0px;
+}
+.prefooter{
+	text-align:center;
+	background-image:url(../images/im8.png);
+	background-size:cover;
+	background-position:center;
+	padding:100px 0;
+}
+.prefooter h4{
+	font-size:25px;
+	color:#3d2514;
+	font-family: 'Bebas NeueBold';
+}
+
+.prefooter h2{
+	font-size:40px;
+	color:#3d2514;
+	font-family: 'Alfa Slab OneReg';
+	padding:15px 40px;
+}
+.prefooter form{
+	margin-top:60px;
+}
+.prefooter form input{
+	width:365px;
+	height:60px;
+	border:1px solid #bebebe;
+	padding-left:15px;
+	border-radius:5px;
+	margin:0 30px 25px 0;
+}
+.prefooter form input::placeholder{
+	color:#515151;
+	font-family: 'Bebas NeueReg';
+	font-size:20px;
+}
+.prefooter form a{
+	background-color:#bf2222;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Alfa Slab OneReg';
+	font-size: 20px;
+    padding: 15px 105px;
+    border-radius: 5px;
+    margin-right: 21px;
+}
+footer{
+	background-image:url(../images/img9.png);
+	background-size:cover;
+	background-position:center;
+	padding:80px 0 10px 0;
+	margin: 0px 15px 30px 15px;
+
+}
+.footer_content{
+	float: left;
+    width: 38%;
+    padding-left:35px;
+}
+.footer_content .kiwi{
+	font-size:18px;
+	font-family: 'MontserratReg';
+	color:#fff;
+	padding:40px 0 90px 0;
+
+}
+.footer_content h2{
+	font-size:30px;
+	color:#fff;
+	font-family: 'Alfa Slab OneReg';
+
+}
+.footer_content i{
+	font-size:55px;
+	color:#fff;
+	margin-right:15px;
+}
+.footer_content h4{
+	font-size:25px;
+	color:#fff;
+	font-family: 'Bebas NeueReg';
+}
+.footer_content:last-child{
+	padding-top: 100px;
+    margin-left: 319px;
+}
+.footer_content p{
+	font-size:20px;
+	font-family: 'Bebas NeueBold';
+	color:#fff;
+	padding:10px 0;
+	letter-spacing:1px;
+	}
+	.footer_content p i{
+		font-size:20px;
+		color:#fff;
+		margin-right:15px;
+	}
+	
+	.social_icons{
+		text-align:right;
+		padding-top:120px;
+		padding-right:50px;
+     }
+     .social_icons i{
+     	font-size:20px;
+     	background-color:#fff;
+     	color:#000;
+     	padding:10px;
+     	margin-right:5px;
+     	border-radius:50%;
+     	cursor:pointer;
+     }
